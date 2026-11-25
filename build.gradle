@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.qtjambi:qtjambi:6.12.0'
+    implementation 'io.qtjambi:qtjambi-native-win64:6.12.0'
+}
+
+application {
+    mainClass = 'com.olafw.Fractal'
+}

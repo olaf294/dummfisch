@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": "com.olafw.dummfisch.Main",
+            "args": "--depth=5 --verbose"
+        }
+    ]
+}
